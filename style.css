@@ -9,10 +9,11 @@
     --primary-color: #1a406b;
     --white-color : #fff;
     --black-color : black;
-    --container-gb-color : #f2f2f2;
+    --container-bg-color : #f2f2f2;
     --facebook-bg-color :  #3b5998;
     --twitter-bg-color :  #00acee;
     --linkedin-bg-color :  #0e76a8;
+    --gray-bg-color : #ebebeb;
 }
 
 /* sub-header */
@@ -132,7 +133,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
-    background-color: var(--container-gb-color);
+    background-color: var(--container-bg-color);
     border-radius: 5px;
 }
 
@@ -159,7 +160,7 @@
 .top-selling-cycles{
     display: flex;
     justify-content: space-around;
-    background-color: var(--container-gb-color);
+    background-color: var(--container-bg-color);
     border-radius: 5px;
 }
 
