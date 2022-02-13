@@ -9,7 +9,7 @@
     background: var(--gray-bg-color);
 }
 
-.login-container h3{
+.login-heading{
     padding-top: 2rem;
     font-size: 1.8rem;
 }
@@ -90,6 +90,8 @@
     color: var(--white-color);
     transition: .8s all ease-in-out;
 }
+
+
 
 .signIn-with-google-btn:hover{
     background-color: var(--black-color);
