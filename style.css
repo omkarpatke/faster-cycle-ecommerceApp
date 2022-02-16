@@ -99,13 +99,12 @@
 .cart-icon{
     position: relative;
     font-size: 1.5rem;
+    right: 10px;
 }
 
 .cart-items-number{
     position: absolute;
-    top: 10px;
-    right: 4.4rem;
-    height: 1.1rem;
+    top: 12px;
     width: 1.1rem;
     display: flex;
     justify-content: center;
@@ -126,12 +125,12 @@
 .wishlist-icon{
     position: relative;
     font-size: 1.2rem;
+    right: 10px;
 }
 
 .wishlist-items-number{
     position: absolute;
-    top: 10px;
-    right: 6.8rem;
+    top: 12px;
     height: 1.1rem;
     width: 1.1rem;
     display: flex;
