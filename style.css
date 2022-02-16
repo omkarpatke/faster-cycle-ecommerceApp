@@ -24,6 +24,7 @@
     background-color: var(--primary-color);
     width: 100%;
     position: fixed;
+    z-index: 3;
 }
 
 .login-links {
@@ -50,6 +51,7 @@
     background-color: var(--white-color);
     position: sticky;
     top: 1.5rem;
+    z-index: 3;
 }
 
 .nav-brand{
@@ -97,12 +99,38 @@
 .cart-icon{
     position: relative;
     font-size: 1.5rem;
+    right: 10px;
 }
 
 .cart-items-number{
     position: absolute;
-    top: 10px;
-    right: 4.8rem;
+    top: 12px;
+    width: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 50%;
+    z-index: 1;
+    font-size: 12px;
+}
+
+.wishlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wishlist-icon{
+    position: relative;
+    font-size: 1.2rem;
+    right: 10px;
+}
+
+.wishlist-items-number{
+    position: absolute;
+    top: 12px;
     height: 1.1rem;
     width: 1.1rem;
     display: flex;
@@ -114,6 +142,8 @@
     z-index: 1;
     font-size: 12px;
 }
+
+
 
 /* home page */
 

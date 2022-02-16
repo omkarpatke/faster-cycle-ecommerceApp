@@ -45,12 +45,6 @@
     border: 1px solid;
 }
 
-.wishlist-icon{
-    display: flex;
-    justify-content: end;
-    font-size: 1.2rem;
-}
-
 .product-img{
     width:  100%;
     margin-top: 1rem;
